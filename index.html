@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Área Negócios — Qualidade & Ambiente, Outsourcing de Funções e Inteligência de Mercado.">
+  <title>Área Negócios | Qualidade, Ambiente e Serviços Empresariais</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#inicio"><img src="logo-area-negocios.png" alt="Área Negócios"></a>
+  <nav>
+    <a href="#servicos">Serviços</a>
+    <a href="#sobre">Sobre</a>
+    <a class="nav-cta" href="#proposta">Pedir Proposta</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-inner">
+    <p class="eyebrow">QUALIDADE · CONFORMIDADE · DESEMPENHO</p>
+    <h1>Soluções empresariais orientadas para a <span>melhoria contínua.</span></h1>
+    <p class="lead">Apoiamos organizações na gestão da Qualidade e Ambiente, no reforço da capacidade operacional e na obtenção de informação relevante para a tomada de decisão.</p>
+    <div class="actions">
+      <a class="button primary" href="#proposta">Pedir Proposta</a>
+      <a class="button secondary" href="#servicos">Conhecer Serviços</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="servicos">
+  <div class="section-head">
+    <p class="eyebrow">ÁREAS DE INTERVENÇÃO</p>
+    <h2>Competências ao serviço da sua organização</h2>
+  </div>
+
+  <div class="cards">
+    <article class="card featured">
+      <div class="num">01</div>
+      <h3>Qualidade &amp; Ambiente</h3>
+      <p>Prestamos apoio técnico especializado na <strong>implementação, manutenção e auditoria de Sistemas de Gestão da Qualidade e Ambiente</strong>, incluindo referenciais ISO. Apoiamos as organizações no cumprimento dos requisitos aplicáveis, na melhoria contínua dos processos e no desenvolvimento de operações mais eficientes e sustentáveis.</p>
+      <a href="#proposta">Solicitar informação →</a>
+    </article>
+
+    <article class="card">
+      <div class="num">02</div>
+      <h3>Outsourcing de Funções</h3>
+      <p>Disponibilizamos <strong>recursos especializados e qualificados</strong> para funções administrativas e operacionais, ajustados às necessidades de cada organização. As soluções podem abranger suporte administrativo, montagem, seleção e triagem, inspeção e <strong>muros de qualidade</strong>, reforçando a capacidade operacional e permitindo converter determinados custos fixos em custos variáveis.</p>
+      <a href="#proposta">Solicitar informação →</a>
+    </article>
+
+    <article class="card">
+      <div class="num">03</div>
+      <h3>Inteligência de Mercado</h3>
+      <p>Transformamos informação do mercado em suporte à decisão. Através de <strong>auditorias de Cliente Mistério, benchmarking da concorrência e análise comparativa de preços</strong>, ajudamos importadores, fabricantes, distribuidores e marcas a monitorizar o mercado, avaliar o posicionamento competitivo e verificar a aplicação da sua política comercial ao longo da cadeia de valor.</p>
+      <a href="#proposta">Solicitar informação →</a>
+    </article>
+  </div>
+</section>
+
+<section class="about" id="sobre">
+  <div>
+    <p class="eyebrow">ÁREA NEGÓCIOS</p>
+    <h2>Rigor técnico. Soluções ajustadas à realidade de cada organização.</h2>
+  </div>
+  <p>A nossa abordagem privilegia soluções práticas e proporcionais às necessidades do cliente. Em Qualidade e Ambiente, procuramos que os sistemas de gestão sejam instrumentos efetivos de controlo, conformidade e melhoria, e não apenas uma resposta a requisitos formais.</p>
+</section>
+
+<section class="proposal" id="proposta">
+  <div class="proposal-copy">
+    <p class="eyebrow">CONTACTO</p>
+    <h2>Fale-nos do seu desafio.</h2>
+    <p>Para solicitar uma proposta ou obter mais informações sobre os nossos serviços, envie-nos uma mensagem. Responderemos através do endereço indicado.</p>
+    <p class="email"><a href="mailto:paulo@areanegocios.pt">paulo@areanegocios.pt</a></p>
+  </div>
+
+  <form action="mailto:paulo@areanegocios.pt" method="post" enctype="text/plain">
+    <label>Nome<input name="Nome" required></label>
+    <label>Empresa<input name="Empresa"></label>
+    <label>Email<input type="email" name="Email" required></label>
+    <label>Serviço
+      <select name="Servico">
+        <option>Qualidade & Ambiente</option>
+        <option>Outsourcing de Funções</option>
+        <option>Inteligência de Mercado</option>
+        <option>Outro</option>
+      </select>
+    </label>
+    <label>Mensagem<textarea name="Mensagem" rows="5" required></textarea></label>
+    <button class="button primary" type="submit">Pedir Proposta</button>
+    <small>Ao enviar, será aberto o seu programa de email com a mensagem preparada.</small>
+  </form>
+</section>
+</main>
+
+<footer>
+  <img src="logo-area-negocios.png" alt="Área Negócios">
+  <p>© <span id="year"></span> Área Negócios. Todos os direitos reservados.</p>
+  <a href="mailto:paulo@areanegocios.pt">paulo@areanegocios.pt</a>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
