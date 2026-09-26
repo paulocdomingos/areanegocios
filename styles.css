@@ -12,3 +12,10 @@ h1{font-size:68px;letter-spacing:-.045em;line-height:1;margin:0 0 24px}h1 span,.
 .contact{padding:65px 5vw;background:var(--dark);color:#fff;display:flex;align-items:center;justify-content:space-between;gap:30px}.contact small{color:var(--cyan);letter-spacing:.18em;font-weight:bold}.contact h2{font-size:38px;margin:8px 0}.contact p{color:#d3ddda;margin:0}.contact>a{color:#fff;text-decoration:none;border:1px solid #71877f;border-radius:6px;padding:15px 22px;font-weight:bold}
 footer{padding:26px 5vw;display:flex;justify-content:space-between;color:#71807a;font-size:13px}
 @media(max-width:850px){header{height:88px;padding:0 6vw}.logo{width:165px}nav a:not(.proposal){display:none}.proposal{padding:10px 13px}.hero{grid-template-columns:1fr}.hero-text{padding:58px 7vw}h1{font-size:46px}.hero h2{font-size:23px}.hero p{font-size:18px}.hero-art{display:none}.buttons{flex-direction:column;align-items:flex-start}.services{grid-template-columns:1fr;padding:40px 7vw}article,article:first-child{padding:28px 0;border-right:0;border-bottom:1px solid var(--line)}article:last-child{border-bottom:0}.contact{padding:55px 7vw;display:block}.contact>a{display:inline-block;margin-top:25px}footer{padding:24px 7vw;display:block}footer span{display:block;margin:5px 0}}
+
+.aveiro{padding:72px 5vw;background:#fff;display:grid;grid-template-columns:1.4fr .6fr;gap:60px;align-items:center;border-top:1px solid var(--line)}
+.aveiro h2{font-size:40px;line-height:1.15;margin:0 0 16px;color:var(--dark)}
+.aveiro p{font-size:18px;color:var(--grey);max-width:850px;margin:0}
+.aveiro-mark{text-align:right;font-size:46px;line-height:1;font-weight:900;letter-spacing:.06em;color:var(--blue)}
+.aveiro-mark span{font-size:17px;letter-spacing:.22em;color:var(--dark)}
+@media(max-width:850px){.aveiro{padding:55px 7vw;grid-template-columns:1fr;gap:28px}.aveiro h2{font-size:32px}.aveiro-mark{text-align:left;font-size:38px}}
